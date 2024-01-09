@@ -4,5 +4,6 @@ This repository contains the official PyTorch implementation of the paper "E-CLI
 
 **The codes and checkpoints will be released ASAP after the paper's decision.**
 
+---
 # Installation
-Please refer to install.md for step-by-step guidance on how to install the packages.
+Please refer to [install.md](./docs/install.md) for step-by-step guidance on how to install the packages.
