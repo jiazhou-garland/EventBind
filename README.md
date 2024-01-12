@@ -1,6 +1,6 @@
 # E-CLIP: Towards Label-efficient Event-based Open-world Understanding by CLIP
 
-This repository contains the official PyTorch implementation of the paper "E-CLIP: Towards Label-efficient Event-based Open-world Understanding by CLIP" paper.
+This repository contains the official PyTorch implementation of the paper "[E-CLIP: Towards Label-efficient Event-based Open-world Understanding by CLIP](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=JQnsB8MAAAAJ&citation_for_view=JQnsB8MAAAAJ:zYLM7Y9cAGgC)" paper.
 <div align="center">
 <img src="image/framework.png" width="1300px">
 </div>
@@ -36,8 +36,12 @@ Please refer to [install.md](./docs/install.md) for step-by-step guidance on how
 
 ---
 # ️ ️Acknowledgement
-We thank the authors of [CLIP](https://github.com/openai/CLIP) for opening source their wonderful works.
+We thank the authors of [CLIP](https://github.com/openai/CLIP), [CoOp](https://github.com/KaiyangZhou/Dassl.pytorch) for opening source their wonderful works.
 
 ---
 # License
 This repository is released under the [MIT](./LICENSE) License.
+
+---
+# Contact
+If you have any question about this project, please feel free to contact jiazhouzhou@hkust-gz.edu.cn.
