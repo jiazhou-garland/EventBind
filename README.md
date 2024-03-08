@@ -1,8 +1,8 @@
-# E-CLIP: Towards Label-efficient Event-based Open-world Understanding by CLIP
+# EventBind: Learning a Unified Representation to Bind Them All for Event-based Open-world Understanding
 
-This repository contains the official PyTorch implementation of the paper "[E-CLIP: Towards Label-efficient Event-based Open-world Understanding by CLIP](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=JQnsB8MAAAAJ&citation_for_view=JQnsB8MAAAAJ:zYLM7Y9cAGgC)" paper.
+This repository contains the official PyTorch implementation of the paper "[EventBind: Learning a Unified Representation to Bind Them All for Event-based Open-world Understanding](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=JQnsB8MAAAAJ&citation_for_view=JQnsB8MAAAAJ:zYLM7Y9cAGgC)" paper.
 <div align="center">
-<img src="image/framework.png" width="1300px">
+<img src="image/EventBind.png" width="1300px">
 </div>
 
 **The codes and checkpoints will be released ASAP after the paper's decision.**
@@ -13,7 +13,7 @@ If you find this paper useful, please consider staring 🌟 this repo and citing
 
 ```
  @article{zhou2023clip,
-  title={E-CLIP: Towards Label-efficient Event-based Open-world Understanding by CLIP},
+  title={EventBind: Learning a Unified Representation to Bind Them All for Event-based Open-world Understanding},
   author={Zhou, Jiazhou and Zheng, Xu and Lyu, Yuanhuiyi and Wang, Lin},
   journal={arXiv preprint arXiv:2308.03135},
   year={2023}
