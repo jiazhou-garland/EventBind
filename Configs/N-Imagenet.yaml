@@ -53,11 +53,11 @@ Dataset:
   resize_height: 224
   Representation: 'rgb' # mlp_learned, frame, gray_scale, rgb
   Train:
-    Path: 'Path/to/your/Train.txt' # TODO
+    Path: 'Path/to/your/N_imagenet_Train.txt' # TODO
     Batch_size: 64
     Augmentation: False
   Val:
-    Path: 'Path/to/your/Val.txt' # TODO
+    Path: 'Path/to/your/N_imagenet_Val.txt' # TODO
     Batch_size: 128
     Augmentation: False
 

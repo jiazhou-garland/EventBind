@@ -52,11 +52,11 @@ Dataset:
   resize_height: 224
   Representation: 'gray_scale' # mlp_learned, frame, gray_scale, rgb
   Train:
-    Path: 'Path/to/your/Train.txt' # TODO
+    Path: 'Path/to/your/Caltech101_Train.txt' # TODO
     Batch_size: 64
     Augmentation: True
   Val:
-    Path: 'Path/to/your/Val.txt' # TODO
+    Path: 'Path/to/your/Caltech101_Val.txt' # TODO
     Batch_size: 80
     Augmentation: False
   Classnames: 'Path/to/your/Caltech101_classnames.json' # TODO
