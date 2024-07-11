@@ -1,0 +1,74 @@
+Wandb:
+  project: EventBind
+  exp_group_name: MINIST ViT-L-14
+  exp_num: test
+Trainer:
+  GPU_ids: [0,1,2,3]
+  lr: 1e-6
+  min_lr: 1e-8
+  weight_decay: 0.05
+  epoch: 30
+  accumulation_steps: 1 # gradient accumulation, if not 0, remember lr *= accumulation_steps
+  print_freq: 1
+  Precision: fp16 # CLIP model default is float16
+  seed: 101
+MODEL:
+  Load_Path: 'Path/to/your/checkpoint' # TODO
+  BACKBONE:
+    Name: "ViT-L-14"  # ViT-B-32 ViT-B-16 ViT-L-14
+    # CLIP model default is float16
+    PRE_ENCODING: "fp16"
+    #Download path to PRE_trained_model
+    PRE_trained_model: 'Path/to/your/ViT-L-14.pt' # TODO
+#    PRE_trained_model: 'Path/to/your/ViT-B-16.pt' # TODO
+#    PRE_trained_model: 'Path/to/your/ViT-B-32.pt' # TODO
+  EventEncoder:
+    train_clip_backbone: True
+    use_cross_frame_prompts: True
+    use_event_modality_prompts: True
+    num_event_modality_prompts: 16
+    use_temporal_encoding: True
+    Low_level_feature_idx: [1]
+    use_intra_frame_prompts: False
+  TextEncoder:
+    use_image_bias_textual_prompts: True
+    use_event_bias_textual_prompts: True
+    init_ctx: True
+    CTX_INIT: "A drafted image of a"
+    # length of text prompts
+    N_CTX: 16
+    leranable_ctx: False
+  ImageEncoder:
+    # feature output from the No.3 ViT block, -1 denotes output whithout the low-level ferature
+    Low_level_feature_idx: [1]
+
+Dataset:
+  pad_frame_255: True
+  num_events: 1000
+  median_length: 5000
+  Num_frame: 5
+  Input_size: [224,224]
+  resize_width: 224
+  resize_height: 224
+  Representation: 'rgb' # mlp_learned, frame, gray_scale, rgb
+  Train:
+    Path: 'Path/to/your/N_MINIST_Train.txt' # TODO
+    Batch_size: 60
+    Augmentation: True
+  Val:
+    Path: 'Path/to/your/N_MINIST_Val.txt' # TODO
+    Batch_size: 500
+    Augmentation: False
+  Classnames: 'Path/to/your/NMINIST_classnames.json' # TODO
+  Imagenet_dict_path: ''
+  N-imagenet-val: ''
+
+LossFunction:
+  use_tim_im: False
+  use_te_e: True
+  use_im_ev_hi: True
+  use_te_tim: True
+  use_im_ev_lo: False
+
+
+
