@@ -1,6 +1,6 @@
 Wandb:
   project: EventBind
-  exp_group_name: Caltech101 ViT-L-14
+  exp_group_name: Caltech101 ViT-L-14 # TODO
   exp_num: test
 Trainer:
   GPU_ids: [0,1,2,3]

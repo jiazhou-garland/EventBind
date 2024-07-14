@@ -3,8 +3,8 @@
 We recommend using [conda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html) for environment setup:
 
 ```
-conda create --name ECLIP python==3.8.0
-conda activate ECLIP
+conda create --name EventBind python==3.8.0
+conda activate EventBind
 ```
 
 Then install PyTorch which is compatible with your CUDA setting. In our experiments, we use PyTorch 1.7.1 + CUDA 11.0
