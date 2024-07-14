@@ -34,11 +34,11 @@ python ./EventBind/train_dp_dataset_name.py
 
 <div align=center>
 
-|   Datasets   |    Access to Model checkpoints           | 
-|:------------:|:----------------------------------------:|
-| N-Caltech101 | [ViT-B-32](), [ViT-B-16](), [ViT-L-14]() | 
-|   N-MINIST   | [ViT-B-32](), [ViT-B-16](), [ViT-L-14]() | 
-|  N-Imagenet  | [ViT-B-32](), [ViT-B-16](), [ViT-L-14]() |
+|   Datasets   |                                                                                                                                                                Access to Model checkpoints                                                                                                                                                                 | 
+|:------------:|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+| N-Caltech101 |        [ViT-B-32](https://huggingface.co/garlandchou/EventBind/resolve/main/N-Caltech101-ViT-B-32.bin?download=true), [ViT-B-16](https://huggingface.co/garlandchou/EventBind/resolve/main/N-Caltech101-ViT-B-16.bin?download=true), [ViT-L-14](https://huggingface.co/garlandchou/EventBind/resolve/main/N-Caltech101-ViT-L-14.bin?download=true)         | 
+|   N-MINIST   | [ViT-B-32](https://huggingface.co/garlandchou/EventBind/resolve/main/MINIST%20ViT-B-32.bin?download=true), [ViT-B-16](https://huggingface.co/garlandchou/EventBind/resolve/main/MINIST%20ViT-B-16.bin?download=true), [ViT-L-14](https://huggingface.co/garlandchou/EventBind/resolve/main/MINIST%20ViT-L-14.bin?download=true)                            | 
+|  N-Imagenet  |        [ViT-B-32](https://huggingface.co/garlandchou/EventBind/resolve/main/N-Imagenet%20ViT-B-32.bin?download=true), [ViT-B-16](https://huggingface.co/garlandchou/EventBind/resolve/main/N-Imagenet%20ViT-B-16.bin?download=true), [ViT-L-14](https://huggingface.co/garlandchou/EventBind/resolve/main/N-Imagenet%20ViT-L-14.bin?download=true)         |
 
 </div>
 
