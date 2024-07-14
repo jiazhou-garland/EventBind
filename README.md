@@ -41,6 +41,7 @@ python ./EventBind/train_dp_dataset_name.py
 |  N-Imagenet  | [ViT-B-32](), [ViT-B-16](), [ViT-L-14]() |
 
 </div>
+
 ---
 # Dataset
 <div align=center>
@@ -53,6 +54,7 @@ python ./EventBind/train_dp_dataset_name.py
 </div>
 
 ---
+
 # Dependencies
 Please refer to [install.md](./docs/install.md) for step-by-step guidance on how to install the packages.
 
