@@ -60,7 +60,7 @@ Dataset:
     Path: 'Path/to/your/N_imagenet_Val.txt' # TODO
     Batch_size: 128
     Augmentation: False
-
+  Classnames: 'Path/to/your/NImagenet_foldername_idx.json' # TODO
   Imagenet_dict_path: 'Path/to/your/Imagenet-1k_classnames.json' # TODO
   N-imagenet-val: 'Path/to/your/N-imagenet-val' # TODO
 
