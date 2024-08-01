@@ -45,6 +45,7 @@ python ./EventBind/train_dp_dataset_name.py
 
 ---
 # Dataset
+Please refer to the .txt files in the [Dataloader](./Dataloader) folder for the dataset structure.
 <div align=center>
 
 | Event Datasets |                                        Acesse to Download                                        | Corresponding Image Datasets |                              Acesse  to Download                               |
