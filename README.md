@@ -10,10 +10,11 @@ This repository contains the official PyTorch implementation of the paper "[Even
 If you find this paper useful, please consider staring 🌟 this repo and citing 📑 our paper:
 
 ```
- @article{zhou2023clip,
-  title={EventBind: Learning a Unified Representation to Bind Them All for Event-based Open-world Understanding},
+@article{zhou2023clip,
+  title={E-CLIP: Towards Label-efficient Event-based Open-world Understanding by CLIP},
   author={Zhou, Jiazhou and Zheng, Xu and Lyu, Yuanhuiyi and Wang, Lin},
-  journal={arXiv preprint arXiv:2308.03135},
+  journal={arXiv e-prints},
+  pages={arXiv--2308},
   year={2023}
 }
 ```
