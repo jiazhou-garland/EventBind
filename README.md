@@ -1,4 +1,4 @@
-# [🌟ECCV2024🌟]EventBind: Learning a Unified Representation to Bind Them All for Event-based Open-world Understanding
+# [🌟ECCV2024 Highlight🌟]EventBind: Learning a Unified Representation to Bind Them All for Event-based Open-world Understanding
 
 This repository contains the official PyTorch implementation of the paper "[EventBind: Learning a Unified Representation to Bind Them All for Event-based Open-world Understanding](https://vlislab22.github.io/EventBind/)" paper.
 <div align="center">
