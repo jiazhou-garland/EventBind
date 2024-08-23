@@ -37,7 +37,7 @@ MODEL:
     CTX_INIT: "A drafted image of a"
     # length of text prompts
     N_CTX: 16
-    leranable_ctx: False
+    leranable_ctx: True
   ImageEncoder:
     # feature output from the No.3 ViT block, -1 denotes output whithout the low-level ferature
     Low_level_feature_idx: [1]
