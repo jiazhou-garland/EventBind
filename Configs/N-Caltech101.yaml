@@ -50,7 +50,7 @@ Dataset:
   Input_size: [224,224]
   resize_width: 224
   resize_height: 224
-  Representation: 'gray_scale' # mlp_learned, frame, gray_scale, rgb
+  Representation: 'rgb' # mlp_learned, frame, gray_scale, rgb
   Train:
     Path: 'Path/to/your/Caltech101_Train.txt' # TODO
     Batch_size: 64
@@ -66,8 +66,8 @@ Dataset:
 LossFunction:
   use_tim_im: False
   use_te_e: True
-  use_im_ev_hi: False
-  use_te_tim: False
+  use_im_ev_hi: True
+  use_te_tim: True
   use_im_ev_lo: False
 
 
